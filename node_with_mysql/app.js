@@ -13,7 +13,7 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'your_password_here',
-    database: 'node_with_mysql'
+    database: 'database_name'
 });
 
 // CHECKING THE CONNECTION IF CONNECTED THE DATABASE THEN SHOW THE <<MySql Connected..>>
